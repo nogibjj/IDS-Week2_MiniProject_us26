@@ -1,11 +1,13 @@
 import pandas as pd
 
-def stats(dataset):
-    mean_val = dataset.mean(numeric_only=True)
-    median_val = dataset.median(numeric_only=True)
-    mode_val = dataset.mode(numeric_only=True)
-    return mean_val, median_val, mode_val
+def stats_mean(dataset):
+    return dataset.mean(numeric_only=True)
 
+def stats_median(dataset):
+    return dataset.median(numeric_only=True)
+
+def stats_mode(dataset):
+    return dataset.mode(numeric_only=True)
 
 data = [
     ["tom", 10],
@@ -25,5 +27,6 @@ data = [
 df = pd.DataFrame(data, columns=["Name", "Age"])
 
 if __name__ == "__main__":
-    answers = stats(df)
-
+    (stats_mean(df)[0])
+    (stats_median(df)[0])
+    (stats_mode(df)["Age"][0])
