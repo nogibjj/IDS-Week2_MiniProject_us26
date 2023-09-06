@@ -19,7 +19,7 @@ data = [
     ["Asad", 14],
     ["Ollie", 10],
     ["Rafael", 15],
-    ["Cecil", 14],
+    ["Cecil", 15],
 ]
 
 df = pd.DataFrame(data, columns=["Name", "Age"])
