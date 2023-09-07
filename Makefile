@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main test_code.py
+	python -m pytest -vv --cov=main test_stats.py
 
 format:
 	black *.py
