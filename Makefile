@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	coverage run -m pytest -vv --cov=main test_code.py
+	python -m pytest -vv --cov=main test_calc.py
 
 format:
 	black *.py
