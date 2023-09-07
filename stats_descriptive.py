@@ -1,5 +1,3 @@
-import pandas as pd
-
 def stats_mean(dataset):
     return dataset.mean(numeric_only=True)
 
