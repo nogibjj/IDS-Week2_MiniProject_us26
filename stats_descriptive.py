@@ -1,5 +1,5 @@
 def stats_mean(dataset):
-    return dataset.mean(numeric_only=True)
+    return dataset.mean(numeric_only=True)+1
 
 def stats_median(dataset):
     return dataset.median(numeric_only=True)
