@@ -20,8 +20,13 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
 ## CI/CD Automation files
 
 1. requirements.txt - Contains all the required python packages
-2. Makfefile - Using make to automate different parts of developing a Python project, like ***running tests, cleaning builds, and installing dependencies***. Integrating it into my routine, so can                                 save time and avoid errors.
-3. .github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up :
+2. Makfefile - Using make to automate different parts of developing a Python project, like -
+                             *running tests
+                             *cleaning builds
+                             *installing dependencies
+   
+   Integrating it into my routine, so can save time and avoid errors.
+4. .github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up :
    
                        - Python environment
                        - Installs project dependencies
