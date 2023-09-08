@@ -22,3 +22,5 @@ def test_values():
     assert (stats_mean(df)[0]) == 13.083333333333334
     assert (stats_median(df)[0]) == 14.0
     assert (stats_mode(df)["Age"][0]) == 15
+
+test_values()
