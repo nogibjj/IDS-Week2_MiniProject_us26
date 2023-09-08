@@ -16,9 +16,10 @@ jobs:
       run: sudo apt-get install -y build-essential gcc
     - name: Install packages
       run: make install
+    - name: Format
+      run: make format      
     - name: Lint
       run: make lint
     - name: Test
       run: make test
-    - name: Format
-      run: make format
+
