@@ -6,4 +6,3 @@ def stats_median(dataset):
 
 def stats_mode(dataset):
     return dataset.mode(numeric_only=True)
-
