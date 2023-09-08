@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	coverage run --source=cov-4.0.0 -m pytest -v test_*.py && coverage report -m
+	python -m pytest --cov=main test_*.py
 
 format:
 	black *.py
