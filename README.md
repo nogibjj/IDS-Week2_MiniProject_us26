@@ -13,19 +13,21 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
 
 ## Code Description
 
-  1. stats_descriptive.py - This python file contains 3 function to calculate mean , median and mode
-  2. test_stats.py - This python file contains a dummy data that test the functions and asserts the true value
+1. stats_descriptive.py - This python file contains 3 function to calculate mean , median and mode
+2. test_stats.py - This python file contains a dummy data that test the functions and asserts the true value
+
 
 ## CI/CD Automation files
 
-  1. requirements.txt - Contains all the required python packages
-  2. Makfefile - Using make to automate different parts of developing a Python project, like ***running tests, cleaning builds, and installing dependencies***. Integrating it into my routine, so can                                 save time and avoid errors.
-3. .github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up - 
+1. requirements.txt - Contains all the required python packages
+2. Makfefile - Using make to automate different parts of developing a Python project, like ***running tests, cleaning builds, and installing dependencies***. Integrating it into my routine, so can                                 save time and avoid errors.
+3. .github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up :
+   
                        - Python environment
-                       -  installs project dependencies
-                       -   Install packages
-                       -  linitng
-                       - runs tests and
-                       -  format
+                       - Installs project dependencies
+                       - Install packages
+                       - Linitng
+                       - Runs tests
+                       - Format
     
 
