@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main test_*.py
+	coverage run --source=plugin_module -m pytest -v test_*.py && coverage report -m
 
 format:
 	black *.py
