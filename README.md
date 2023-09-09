@@ -14,8 +14,8 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
 
 ## Code Description
 
-1. stats_descriptive.py - This python file contains 3 function to calculate mean , median and mode
-2. test_stats.py - This python file contains a dummy data that test the functions and asserts the true value
+1. stats_descriptive.py - This python file contains 3 function to calculate mean, median,  mode and standard deviation 
+2. test_stats.py - This python file is reading World University Ranking.csv and testing the four functions in stats_descriptive.pyand asserts the true value
 
 
 ## CI/CD Automation files
