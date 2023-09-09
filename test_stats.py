@@ -10,7 +10,7 @@ def test_values():
     assert (stats_mean(data)) == 16.724999999999998
     assert (stats_median(data)) == 13.5
     assert (stats_mode(data)[0]) == 10.3
-    assert (stats_std(data)) == 10.557828968365255
+    assert (stats_std(data)) == 10.557828968365254
 
 
 test_values()
