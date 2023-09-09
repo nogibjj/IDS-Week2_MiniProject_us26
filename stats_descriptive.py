@@ -1,6 +1,6 @@
 def stats_mean(dataset):
     return dataset["No of student per staff"].mean()
-
+    
 
 def stats_median(dataset):
     return dataset["No of student per staff"].median()
