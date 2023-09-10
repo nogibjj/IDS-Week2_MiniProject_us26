@@ -18,9 +18,10 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
 2. test_stats.py - This python file is reading World University Ranking.csv and testing the four functions in stats_descriptive.py and asserts the true value
 3. data_visualization.py - This file contains analysis between count of top universities vs there mean industry income based on the location
    - The output of the visualization is :
-     <p align="center">
-  <img width="250" src="https://github.com/nogibjj/IDS-Week2_MiniProject_us26/blob/main/visualization.png" alt="My Image1">
-  </p>
+
+<p align="center">
+  <img width="650" src="https://github.com/nogibjj/IDS-Week2_MiniProject_us26/blob/main/visualization.png" alt="My Image1">
+</p>
 
 ## CI/CD Automation files
 
