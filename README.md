@@ -11,12 +11,11 @@
 This repo has been created using my week 1 mini project as the template which has all the necessary steps to automate the process and I will be using that repo for my future projects as well. 
 The current repo is for creating _*Pandas Descriptive Statistics Script*_ using DevOps principles.
 
-
 ## Code Description
-
 1. stats_descriptive.py - This python file contains 3 function to calculate mean, median,  mode and standard deviation 
 2. test_stats.py - This python file is reading World University Ranking.csv and testing the four functions in stats_descriptive.py and asserts the true value
-3. test_graph.py - This file contains analysis between count of top universities vs there mean industry income score based on the location. When we run the 'make test' command, the folder named output_graph is created with the graph as shown below.
+3. Generated summary report.md -  This is markdown file containg output of the stats_descriptive.py file. Make tes
+4. test_graph.py - This file contains analysis between count of top universities vs there mean industry income score based on the location. When we run the 'make test' command, the folder named output_graph is created with the graph as shown below.
    - The output of the visualization is :
 
 <p align="center">
