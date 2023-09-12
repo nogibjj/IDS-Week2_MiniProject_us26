@@ -13,19 +13,18 @@ def stats_mode(dataset):
 def stats_std(dataset):
     return dataset["No of student per staff"].std()
 
+def report(data):
 
-def summary(data):
-
-    summary = {
+    result = {
         "mean": (stats_mean(data)),
         "median": (stats_median(data)),
         "std_dev": (stats_std(data)),
         "mode":((stats_mode(data)[0]))
     }
 
-    return summary
+    return result
 
-def create_summary(summary, file_path = 'Generated summary report.md'):
-    with open(file_path, 'w' , encoding="utf-8") as f: 
+def create_summary(summary = report, file_path = 'Generated summary report.md'):
+    with open(file_path, 'w', encoding="utf-8") as f: 
         for key, value in summary.items(): 
             f.write('%s:%s\n' % (key, value))
