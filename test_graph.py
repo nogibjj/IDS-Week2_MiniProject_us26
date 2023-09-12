@@ -15,7 +15,7 @@ def visualization():
       title="Analysing Top Universities",
       xaxis_title="Mean of Industry Income Score",
       yaxis_title="Count of Top Universities")
-  fig.show()
+  #fig.show()
   
   if not os.path.exists("output_graph"):
       os.mkdir("output_graph")
