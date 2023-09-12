@@ -3,12 +3,12 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv  test_*.py
+	python -m pytest -vv  \Codes/*.py
 
 format:
 	black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	pylint --disable=R,C --ignore-patterns=\Codes/.*?py \Codes/*.py
 
 all: install lint format test
