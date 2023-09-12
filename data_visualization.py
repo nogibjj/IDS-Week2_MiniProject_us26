@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.express as px
+import os
 
 data = pd.read_csv("World University Rankings 2023.csv")
 
@@ -14,3 +15,8 @@ fig.update_layout(
     xaxis_title="Mean of Industry Income Score",
     yaxis_title="Count of Top Universities")
 fig.show()
+
+if not os.path.exists("output_graph"):
+    os.mkdir("output_graph")
+
+fig.write_image("output_graph/visualization.png")
