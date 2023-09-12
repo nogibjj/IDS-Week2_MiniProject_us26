@@ -3,7 +3,7 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=Code test_*.py
+	python -m pytest -vv --cov=Code *.py
 
 format:
 	black Code/*.py
