@@ -20,7 +20,7 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
    - The output of the visualization is :
 
 <p align="center">
-  <img width="650" src="https://github.com/nogibjj/IDS-Week2_MiniProject_us26/blob/main/visualization.png" alt="My Image1">
+  <img width="650" src="https://github.com/nogibjj/IDS-Week2_MiniProject_us26/blob/main/output_graph/visualization.png" alt="My Image1">
 </p>
 
 ## CI/CD Automation files
