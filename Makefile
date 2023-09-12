@@ -9,7 +9,6 @@ format:
 	black *.py
 
 lint:
-	#pylint --disable=R,C --ignore-patterns=\Codes/.*?py \Codes/*.py
 	ruff check *.py Code/*.py
 
 all: install lint format test
