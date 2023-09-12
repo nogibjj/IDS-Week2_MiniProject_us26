@@ -1,4 +1,11 @@
-from stats_descriptive import stats_mean, stats_median, stats_mode, stats_std , report , create_summary
+from stats_descriptive import (
+    stats_mean,
+    stats_median,
+    stats_mode,
+    stats_std,
+    report,
+    create_summary,
+)
 import pandas as pd
 
 data = pd.read_csv("World University Rankings 2023.csv")
@@ -14,4 +21,4 @@ def test_values():
 
 
 test_values()
-create_summary(data,file_path =  'Generated summary report.md')
+create_summary(data, file_path="Generated summary report.md")
