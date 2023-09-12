@@ -16,7 +16,7 @@ The current repo is for creating _*Pandas Descriptive Statistics Script*_ using 
 
 1. stats_descriptive.py - This python file contains 3 function to calculate mean, median,  mode and standard deviation 
 2. test_stats.py - This python file is reading World University Ranking.csv and testing the four functions in stats_descriptive.py and asserts the true value
-3. data_visualization.py - This file contains analysis between count of top universities vs there mean industry income based on the location
+3. dtest_graph.py - This file contains analysis between count of top universities vs there mean industry income based on the location
    - The output of the visualization is :
 
 <p align="center">
