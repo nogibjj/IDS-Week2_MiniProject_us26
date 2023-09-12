@@ -26,6 +26,6 @@ def summary(data):
     return summary
 
 def create_summary(summary, file_path = 'Generated summary report.md'):
-    with open(file_path, 'w') as f: 
+    with open(file_path, 'w' , encoding="utf-8") as f: 
         for key, value in summary.items(): 
             f.write('%s:%s\n' % (key, value))
